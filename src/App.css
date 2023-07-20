@@ -1,5 +1,9 @@
 .App {
+  background-color: rgb(214, 220, 206);
   color: darkslategrey;
+}
+a {
+  color: black;
 }
 .App-header {
   text-align: center;
