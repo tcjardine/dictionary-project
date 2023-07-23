@@ -9,10 +9,21 @@ export default function App() {
           <h1>Dictionary</h1>
         </header>
         <main>
-          <Dictionary defaultKeyword="sunset"/>
+          <Dictionary defaultKeyword="sunset" />
         </main>
         <footer className="App-footer">
-          <small>Coded by Tracy Jardine</small>
+          <small>
+            Coded by Tracy Jardine,{" "}
+            <em>
+              <a
+                href="https://github.com/tcjardine/dictionary-project"
+                target="_blank"
+                rel="noreferrer"
+              >
+                open-sourced on GitHub
+              </a>
+            </em>
+          </small>
         </footer>
       </div>
     </div>
